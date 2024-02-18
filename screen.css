@@ -88,31 +88,32 @@ main {
 input[type=text] {
     width: 40%;
     text-align: left;
-    padding: 16px 32px 16px 32px;
-    margin: 25px;
+    padding: 16px 32px 16px 16px;
+    margin: 25px 25px 25px 0px;
     border: none;
     font-family: 'Inter';
+    font-size: 16px;
     background-color: #ECECEC;
     color: #424242;
   }
 
-  input[type=button] {
+input[type=button] {
     background-color: var(--accent-color);
     text-transform: uppercase;
     font-weight: 900;
+    font-size: 16px;
     border: none;
     color: white;
     padding: 16px 32px 16px 32px;
-    margin-left: -20px;
-    margin-right: 20px;
-  }
+    margin-left: -10px;
+    margin-right: 0px;
+}
 
-  form {
-    text-align: center;
-    background: url('CTA-bg.png') no-repeat center left;
-    background-size: contain;
-    background-position: center center;
-    padding: 16px 15px;;
+form {
+    background: linear-gradient(#E2E2E2,#D6D7D6) no-repeat center center;
+    border-radius: 20px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    font-size: 24px;
 }
