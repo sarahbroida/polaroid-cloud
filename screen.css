@@ -16,10 +16,10 @@ body {
 
 header {
     padding: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
 
-header h1{
+header h1 {
     margin: 0;
     font-weight: normal;
 }
@@ -28,9 +28,91 @@ main {
     background: url('polaroid (1).png') no-repeat center 100px;
     margin: 0 auto;
     width: 1000px;
+    margin-bottom: 100px;
 }
 
 .hero {
     text-align: center;
     min-height: 800px;
+}
+
+.hero h2 {
+    font-size: 9em;
+    line-height: 1em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.details ul li {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0 0 0 100px;
+    line-height: 60px;
+    font-size: 32px;
+    background-size: 35px;
+    width: 1000px;
+}
+
+.details ul li.WiFi {
+    background: url('wifi-solid.png') no-repeat center left;
+}
+
+.details ul li.Cloud {
+    background: url('cloud-arrow-up-solid.svg') no-repeat center left;
+}
+
+.details ul li.QR {
+    background: url('qrcode-solid.svg') no-repeat center left;
+}
+
+.details ul li.Photo {
+    background: url('photo-film-solid.svg') no-repeat center left;
+}
+
+.details p {
+    text-align: center;
+    font-size: 32px;
+    margin: 0;
+}
+
+.details h3 {
+    text-align: center;
+    font-size: 64px;
+}
+
+.cta h3 {
+    font-size: 64px;
+    text-align: center;
+}
+
+input[type=text] {
+    width: 40%;
+    text-align: left;
+    padding: 16px 32px 16px 32px;
+    margin: 25px;
+    border: none;
+    font-family: 'Inter';
+    background-color: #ECECEC;
+    color: #424242;
+  }
+
+  input[type=button] {
+    background-color: var(--accent-color);
+    text-transform: uppercase;
+    font-weight: 900;
+    border: none;
+    color: white;
+    padding: 16px 32px 16px 32px;
+    margin-left: -20px;
+    margin-right: 20px;
+  }
+
+  form {
+    text-align: center;
+    background: url('CTA-bg.png') no-repeat center left;
+    background-size: contain;
+    background-position: center center;
+    padding: 16px 15px;;
+    align-items: center;
+    font-size: 24px;
 }
